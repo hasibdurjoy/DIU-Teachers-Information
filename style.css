@@ -110,3 +110,15 @@ body{
     width: 180px;
     border-radius: 100%;
 }
+::-webkit-scrollbar{
+    background: black;
+    width: 25px;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(
+    45deg,
+        #06dee1,
+        #79ff6c
+    );
+    border-radius: 3px;
+}
